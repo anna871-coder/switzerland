@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "oswald";
+    src: url("Oswald/static/Oswald-SemiBold.ttf");
+    font-weight: 500;
+}
+html {
+    background-color: rgb(245, 220, 230)
+}
+
+.login-div {
+    display: inline-block;
+    padding: 0px;
+    box-shadow: 0 0 2px;
+    font-size: 15px;
+}
+.login {font-size: 16px; ; color: teal; margin: 0%; }
+.login-div input {
+    padding: 0px;
+    display: block;
+    margin-bottom: 1px;
+}
+.login-div label {font-size: 14px}
+.login-div button:hover {
+    box-shadow: 2px 2px 2px gray;
+}
+.login-div input:focus {
+    box-shadow: 2px 2px 2px red;
+    color: yellowgreen;}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+h1 {
+    color: rgb(138, 37, 79);
+    font-family: 'Roboto', sans-serif;}
+
+h3 {
+    font-family: 'Roboto', sans-serif; font-size: 30px;}
+
+#Location {color: darkmagenta;}
+#LocationInEurope {color: rgb(47, 128, 36);}
+#FacesOfMonteRosa {color: maroon;}
+#img-1 {visibility: visible;}
+
+.content {color: rgb(18, 9, 59);
+font-size: 24px;
+font-family: 'Roboto', sans-serif;
+text-align: justify;
+line-height: normal; 
+font-weight: 100px; max-width: 80%}
+.img-MonteRosa {width: 40%; margin: 1%;
+box-shadow: 0 0 11px black;
+}
+.img-Dom {width: 80%;}
+
+.menu {margin: 0 0.5% 0 0 ; width: 30%; 
+    background-color: rgb(230, 116, 169); 
+    font-weight: bold;
+    font-size: 20px;
+    height: 60px;
+    color: rgb(48, 167, 111);}
+a {color: black;}
+.bold {font-weight: bold;}
+.img-div {background-color: mistyrose;}
+.img-light {background-color: orchid;}
+table, td, th, caption {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(238, 222, 76);
+    table-layout: auto;
+    border-collapse: collapse; 
+}
+table {
+    width: 800px;
+    height: 600px;
+    margin: 30px;
+    border: 1px solid black}
+
+td {font-size: 20px;
+    border: 1px solid black}
+
+th {font-size: 24px;
+font-weight: bold; color: darkgreen;
+border: 1px solid black; height: 60px;}
+
+caption {font-size: 40px;
+    font-weight: bold;
+    color: darkblue;
+    line-height: 100px;
+    border: 1px solid black;
+    
+}
+
+#hegyek {font-size: 24px;
+color: firebrick;}
+ol, h1 {font-family:'Roboto', sans-serif; line-height: 150%;}
+ul {font-family:'Roboto', sans-serif;}
