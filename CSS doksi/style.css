@@ -3,17 +3,19 @@
     src: url("Oswald/static/Oswald-SemiBold.ttf");
     font-weight: 500;
 }
-html {
-    background-color: rgb(245, 220, 230)
-}
-
+body {
+    margin: 5px 5px 5px 30px;
+   }
+   div {margin: 10px 10px 10px 10px;}
+   p {margin: 0 30px; line-height: 210%;}
+   form {margin: 0 0 0 30px}
 .login-div {
     display: inline-block;
     padding: 0px;
     box-shadow: 0 0 2px;
     font-size: 15px;
 }
-.login {font-size: 16px; ; color: teal; margin: 0%; }
+.login {font-size: 24px; ; color: teal; margin: 0%; }
 .login-div input {
     padding: 0px;
     display: inline;
@@ -33,38 +35,36 @@ html {
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 h1 {
     color: rgb(138, 37, 79);
-    font-family: 'Roboto', sans-serif;}
+    font-family: 'Roboto', sans-serif;
+margin-left: 20px}
 
 h3 {
-    font-family: 'Roboto', sans-serif; font-size: 25px;}
+    font-family: 'Roboto', sans-serif; font-size: 25px; }
 
-#Location {color: darkmagenta;}
+#Location {color: darkmagenta; margin: 20px 50px 10px;}
 #LocationInEurope {color: rgb(47, 128, 36);}
 #FacesOfMonteRosa {color: maroon;}
 #img-1 {visibility: visible;}
 
 .content {color: rgb(18, 9, 59);
-font-size: 24px;
+font-size: 20px;
 font-family: 'Roboto', sans-serif;
 text-align: justify;
-line-height: normal; 
+line-height: 150%; 
 font-weight: 100px; max-width: 80%}
-.img-MonteRosa {width: 40%; margin: 1%;
+.img {width: 40%; margin: 0 0 0 30px;
 box-shadow: 0 0 11px black;
 }
-.img-Dom {width: 70%;}
-
 .menu {margin: 0 0.5% 0 0 ; width: 20%; 
-    background-color: rgb(230, 116, 169); 
+    background-color: rgb(202, 226, 199); 
     font-weight: bold;
-    font-size: 15px;
     height: 50px;
-    color: rgb(48, 167, 111);
+    color: rgb(37, 112, 77);
 position: static;}
-a {color: black; font-size: 10px;}
+a {color: black; font-size: 20px;}
 .bold {font-weight: bold;}
 .img-div {background-color: mistyrose;}
-.img-light {background-color: orchid;}
+.img-light {background-color: rgb(224, 163, 222);}
 table, td, th, caption {
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -95,7 +95,7 @@ caption {font-size: 40px;
 
 #hegyek {font-size: 24px;
 color: firebrick;}
-ol, h1 {font-family:'Roboto', sans-serif; line-height: 150%;}
+ol, h1 {font-family:'Roboto', sans-serif;}
 ul {font-family:'Roboto', sans-serif;}
 
 #name {margin: 0 0 0 14px;

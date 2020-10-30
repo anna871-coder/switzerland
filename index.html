@@ -6,36 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Switzerland - Highest Mountains</title>
     <link rel="stylesheet" href="CSS doksi/style.css">
+    <link rel="stylesheet" href="CSS doksi/bootstrap-4.5.3-dist/css/bootstrap.min.css">
 </head>
 
-<body>
-    <div  >
-        <button class="menu"><a href=about.html>About</a></button>
-        <button class="menu"><a href="pages/Monte_Rosa_(Dufourspitze).html">Monte Rosa</a></button>
-        <button class="menu"><a href="pages/Dom.html">Dom</a></button>
-        <button class="menu"><a href="pages/Cheese.html">Cheese</a></button>
-    </div>
-<form>
-    <div class="login-div">
-        <h1 class="login">Login</h1>
-        <div class="formEmail">
-            <Label for="email">E-mail</Label>
-            <input id="email" type="email" name="email"></input>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="btn btn-secondary" href="about.html">About</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="btn btn-danger" href="pages/Monte_Rosa_(Dufourspitze).html">Monte Rosa <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-warning" href="pages/Dom.html">Dom</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="btn btn-light" href="pages/Cheese.html">Cheese</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
         </div>
-        <div class="formPassword">
-            <Label for="password">Password</Label>
-            <input id="password" type="password" name="password"></input>
-        </div>
-        <div class="formbutton">
-        <div id="submit-btn">
-            <button class="submit-btn">Login</button>
-        </div>
-    </div>
-</form>
-    <h1>
-        Top 10 Mountains in Switzerland
+    </nav>
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+            <div class="col-4">
+
+    <form class="form-horizontal">
+        <h3 class="login">Login</h3>
+        <div class="form-group">
+                <Label for="email">E-mail</Label>
+                <input class="form-control" id="email" type="email" placeholder="Email" name="email" aria-d></input>
+         
+            <div class="form-group">
+                <Label for="password">Password</Label>
+                <input class="form-control" id="password" type="password" placeholder="Email" name="password"></input>
+            </div>
+            <div class="formbutton">
+                <div id="submit-btn">
+                    <button class="submit-btn">Login</button>
+                </div>
+            </div>
+    </form>
+    
+</div>
+</div>
+</div>
+</div>
+    <h1 class="login">Top 10 Mountains in Switzerland
     </h1>
-    <ol id="hegyek">
+    <ol class="content">
         <li> Monte Rosa (Dufourspitze)
         </li>
         <ul>
